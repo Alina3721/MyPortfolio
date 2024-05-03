@@ -18,3 +18,17 @@ a{
   text-decoration: none; 
   color: beige; 
 }
+
+.content{
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.slider_image{
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
