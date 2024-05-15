@@ -32,3 +32,60 @@ a{
   display: block;
   margin: 0 auto;
 }
+
+.skill{
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+}
+
+.skill_card{
+  width: 45%;
+}
+
+.skill_card img{
+  width: 100%;
+}
+
+.skill_grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+.skill_fakeimage1{
+width: 100%;
+height: 600px;
+background-size: cover;
+background-position: center;
+}
+
+.skill_fakeimage2{
+width: 100%;
+height: 600px;
+background-size: cover;
+background-position: center;
+}
+
+.skill_fakeimage3{
+width: 100%;
+height: 600px;
+background-size: cover;
+background-position: center;
+}
+
+.skill_fakeimage4{
+width: 100%;
+height: 600px;
+background-size: cover;
+background-position: center;
+}
+
+.h3-text{
+  cursor: pointer;
+}
+
+.h3-text:hover{
+  color: rgb(1, 169, 169);
+}
