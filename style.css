@@ -89,3 +89,69 @@ background-position: center;
 .h3-text:hover{
   color: rgb(1, 169, 169);
 }
+
+.create{
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.create_block{
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.create_block h5{
+  margin-bottom: 40px;
+  font-size: 16;
+}
+
+.create_block h1{
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#klik1{
+  padding: 18px;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 80px;
+  width: 210px;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  transition-duration: 0.3s;
+}
+
+#klik1:hover{
+  color: white;
+  background-color: rgba(24, 197, 197, 0.803);
+}
+
+.over{
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.over_block2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.over_text{
+  width: 28%;
+
+}
