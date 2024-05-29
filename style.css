@@ -233,3 +233,46 @@ background-image: url("./img/5e8478df5e14800021e0c460_optimized_1920_c1109x739-4
     width: 250px;
     height: 250px;
   }
+
+  .brands{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: white;
+  position: relative;
+  }
+
+.brands_foto{
+  width: 250px;
+}
+
+.brands_galary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.galary{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.38);
+  left: 0;
+}
+.galary_slide{
+  width: 35%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+#cross{
+ width: 50px; 
+height: 50px;
+margin-left: 50px;
+cursor: pointer;
+}
