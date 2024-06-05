@@ -342,13 +342,152 @@ cursor: pointer;
 }
 
 
+
 @media screen and (max-width: 425px){
   .header{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .header_nav{
     display: none;
   }
+
+  .content{
+max-width: 100%;
+  }
+
+  .header_logo{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .maps_block{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .brands, .create, .over, .build, .maps{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill_fakeimage1, .skill_fakeimage2, .skill_fakeimage3, .skill_fakeimage4{
+    height: 250px;
+  }
+  .build_row{
+    flex-direction: column;
+  }
+  .skill_grid{
+    margin-top: 20px;
+  }
+  .build_block1{
+    width: 100%;
+  }
+  .build_image1{
+    width: 100%;
+  }
+  .build_image2{
+    width: 100%;
+  }
+  .over_block2{
+    flex-direction: column;
+  }
+  .over_text{
+    width: 100%;
+  }
+  .over{
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+  .create{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .build{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .brands_galary{
+    justify-content: center;
+  }
+  .brands_foto{
+    width: 80%;
+  }
+  .maps_block{
+   height: 150px;
+  }
+}
+
+
+
+@media screen and (max-width: 320px){
+  .header{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .header_nav{
+    display: none;
+  }
+
+  .content{
+max-width: 100%;
+  }
+
+  .header_logo{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .maps_block{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .brands, .create, .over, .build, .maps{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill_fakeimage1, .skill_fakeimage2, .skill_fakeimage3, .skill_fakeimage4{
+    height: 250px;
+  }
+  .build_row{
+    flex-direction: column;
+  }
+  .skill_grid{
+    margin-top: 20px;
+  }
+  .build_block1{
+    width: 100%;
+  }
+  .build_image1{
+    width: 100%;
+  }
+  .build_image2{
+    width: 100%;
+  }
+  .over_block2{
+    flex-direction: column;
+  }
+  .over_text{
+    width: 100%;
+  }
+  .over{
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+  .create{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .build{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .brands_galary{
+    justify-content: center;
+  }
+  .brands_foto{
+    width: 80%;
+  }
+  .maps_block{
+   height: 130px;
+  }
+  
 }
