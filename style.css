@@ -269,10 +269,86 @@ background-image: url("./img/5e8478df5e14800021e0c460_optimized_1920_c1109x739-4
   justify-content: center;
 }
 
-
 #cross{
  width: 50px; 
 height: 50px;
 margin-left: 50px;
 cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header_logo{
+    width: 50px;
+  }
+  .header_nav{
+    display: none;
+  }
+  .skill{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .skill_fakeimage4 , .skill_fakeimage3, .skill_fakeimage2, .skill_fakeimage1 {
+   height: 400px;
+  }
+  .create{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .over{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .build{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .build_image1, .build_image2{
+    height: 400px;
+    width: 200px;
+  }
+  .build_block1{
+    height: 400px;
+    width: 150px;
+  }
+  .build_block1 h3{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .maps_block{
+    left: 30px;
+  }
+  #map{
+    height: 100%;
+  }
+  .maps{
+    height: 550px;
+  }
+  .brands{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  .brands_foto{
+    width: 200px;;
+  }
+  .brands_galary{
+    justify-content: left;
+    column-gap: 20px;
+  }
+}
+
+
+@media screen and (max-width: 425px){
+  .header{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .header_nav{
+    display: none;
+  }
 }
